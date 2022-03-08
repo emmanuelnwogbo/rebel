@@ -38,7 +38,7 @@
                     {
                         id: "3",
                         question: "Do I own the IP of the minted NFT?",
-                        answer: "Yes. Holding each REBEL comes with the rights to its intellectual property and also to create and distribute derivatives. You also get a lifetime access to a suit of ever evolving and up to date NFT minting tools and WEB3 infra"
+                        answer: "Yes. Holding each REBEL comes with the rights to its intellectual property and also to create and distribute derivatives"
                     },
                     {
                         id: "4",
