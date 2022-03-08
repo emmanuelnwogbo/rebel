@@ -1,5 +1,5 @@
 <template>
-    <div class="teammobile">
+    <div class="teammobile" id="teammobile">
         <h2 class="teammobile__header">Meet The Core Team</h2>
         <div class="teammobile__items">
             <div class="teammobile__item" @click='openLink("https://twitter.com/kvngspice_")'>

@@ -9,8 +9,8 @@
                 </div>
             </div>
             <div class="rebel__jumbotron--right">
-                <span class="rebel__jumbotron--rightbtn">Team</span>
-                <span class="rebel__jumbotron--rightbtn">Roadmap</span>
+                <span class="rebel__jumbotron--rightbtn" @click="scroll('team')">Team</span>
+                <span class="rebel__jumbotron--rightbtn" @click="scroll('roadmap')">Roadmap</span>
                 <div class="rebel__jumbotron--socials">
                     <span @click='openLink("https://discord.com/invite/SmtEVXEpgN")'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="52" viewBox="0 0 48 52" fill="none">
@@ -109,6 +109,11 @@ export default {
         },
         openLink(url) {
             window.open(url);
+        },
+        scroll(id) {
+            var element = document.getElementById(`${id}`);
+
+            element.scrollIntoView({behavior: "smooth"});
         }
     },
     mounted() {

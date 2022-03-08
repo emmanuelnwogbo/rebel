@@ -3,8 +3,8 @@
         <div class="jumbotronmobile">
             <div class="jumbotronmobile__menu" v-bind:class="{ visible: open }" @click.stop="togglemenu">
                 <div class="jumbotronmobile__menubody">
-                    <div class="jumbotronmobile__menubody--item">Team</div>
-                    <div class="jumbotronmobile__menubody--item">Roadmap</div>
+                    <div class="jumbotronmobile__menubody--item" @click="scroll('teammobile')">Team</div>
+                    <div class="jumbotronmobile__menubody--item" @click="scroll('roadmapmobile')">Roadmap</div>
                     <div class="jumbotronmobile__menubody--item">
                     <span @click='openLink("https://discord.com/invite/SmtEVXEpgN")'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="52" viewBox="0 0 48 52" fill="none">
@@ -121,7 +121,12 @@
             },
             openLink(url) {
                 window.open(url);
-            }            
+            },
+            scroll(id) {
+                var element = document.getElementById(`${id}`);
+
+                element.scrollIntoView({behavior: "smooth"});
+            }                       
         },
         mounted() {
             this.slide();

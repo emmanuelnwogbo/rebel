@@ -1,5 +1,5 @@
 <template>
-    <div class="team">
+    <div class="team" id="team">
         <h2 class="team__header">Meet the Core Team</h2>  
         <div class="team__items">
             <div class="team__item">

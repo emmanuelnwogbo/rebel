@@ -1,5 +1,5 @@
 <template>
-    <div class="roadmapmobile">
+    <div class="roadmapmobile" id="roadmapmobile">
         <h2 class="roadmapmobile__header">Road Map</h2>
         <div class="roadmapmobile__paragraph">
             <figure class="roadmapmobile__artboard">
