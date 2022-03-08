@@ -28,12 +28,12 @@
                     {
                         id: "1",
                         question: "Wen mint?",
-                        answer: "Our presale will go live on 22nd of march while public say with happen on 23rd of march "
+                        answer: "Wen mint : Our presale will go live on 22nd of march while public sales will  happen on 23rd of march"
                     },
                     {
                         id: "2",
                         question: "How much?",
-                        answer: "Each REBEL in the collection will go for 0.04 eth"
+                        answer: "Each REBEL in the collection will go for 0.044 eth"
                     },
                     {
                         id: "3",

@@ -224,7 +224,6 @@
 
       &__bottom {
           position: relative;
-          margin-top: #{scaleValue(500)};
           color: #fff;
 
           &--body {
@@ -260,15 +259,16 @@
       }
 
       &__flipper {
+          margin-top: #{scaleValue(300)};
           position: relative;
           height: #{scaleValue(1200)};
-          width: #{scaleValue(1300)};
+          width: #{scaleValue(1500)};
 
           & figure {
               position: absolute;
               top: #{scaleValue(-30)};
               right: #{scaleValue(30)};
-              height: 90%;
+              height: 100%;
               width: 100%;
               opacity: 0;
               transition: all .3s ease;
