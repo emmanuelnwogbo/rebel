@@ -261,8 +261,8 @@
       &__flipper {
           margin-top: #{scaleValue(300)};
           position: relative;
-          height: #{scaleValue(1200)};
-          width: #{scaleValue(1500)};
+          height: #{scaleValue(1400)};
+          width: #{scaleValue(1400)};
 
           & figure {
               position: absolute;
