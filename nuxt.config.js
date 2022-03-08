@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'rebels',
+    title: 'the rebellion nft',
     htmlAttrs: {
       lang: 'en'
     },
@@ -15,7 +15,7 @@ export default {
       {
         rel: "icon",
         type: "image/x-icon",
-        href: "/favicon.ico"
+        href: "/favicon.png"
       },
       {
         rel: "preconnect",
