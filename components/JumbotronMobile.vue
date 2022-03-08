@@ -52,6 +52,19 @@
                     <span></span>
                 </div>
             </div>
+            <div class="">
+                <div class="jumbotronmobile__flipper">
+                    <figure v-bind:class="{ active: currentItem === 3 }">
+                        <img src="@/assets/imgs/female-character-144.png"/>
+                    </figure>
+                    <figure v-bind:class="{ active: currentItem === 2 }">
+                        <img src="@/assets/imgs/male--character-142.png"/>
+                    </figure>
+                    <figure v-bind:class="{ active: currentItem === 1 }">
+                        <img src="@/assets/imgs/male--character-237.png"/>
+                    </figure>
+                </div>            
+            </div>
             <div class="jumbotronmobile__bottom">
                 <div class="jumbotronmobile__bottom--body">
                     <div class="jumbotronmobile__bottom--text1">
@@ -79,19 +92,6 @@
                     </span>
                 </div>  
                 </div>              
-            </div>
-            <div class="">
-                <div class="jumbotronmobile__flipper">
-                    <figure v-bind:class="{ active: currentItem === 3 }">
-                        <img src="@/assets/imgs/female-character-144.png"/>
-                    </figure>
-                    <figure v-bind:class="{ active: currentItem === 2 }">
-                        <img src="@/assets/imgs/male--character-142.png"/>
-                    </figure>
-                    <figure v-bind:class="{ active: currentItem === 1 }">
-                        <img src="@/assets/imgs/male--character-237.png"/>
-                    </figure>
-                </div>            
             </div>
         </div>
     </div>
