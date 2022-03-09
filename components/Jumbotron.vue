@@ -12,7 +12,7 @@
                 <span class="rebel__jumbotron--rightbtn" @click="scroll('team')">Team</span>
                 <span class="rebel__jumbotron--rightbtn" @click="scroll('roadmap')">Roadmap</span>
                 <div class="rebel__jumbotron--socials">
-                    <span @click='openLink("https://discord.com/invite/SmtEVXEpgN")'>
+                    <span @click='openLink("https://discord.gg/Hv39nv6HQH")'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="52" viewBox="0 0 48 52" fill="none">
                             <g filter="url(#filter0_d_15_140)">
                             <path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" fill="#5865F2"/>
