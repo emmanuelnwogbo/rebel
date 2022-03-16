@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="roadmap" id="roadmap">
-            <h2 class="roadmap__header">Road Map</h2>
+            <!--<h2 class="roadmap__header">Road Map</h2>!-->
             <div class="roadmap__paragraph">
                 <figure class="roadmap__artboard">
 
