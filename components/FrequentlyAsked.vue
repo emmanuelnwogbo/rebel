@@ -28,7 +28,7 @@
                     {
                         id: "1",
                         question: "Wen mint?",
-                        answer: "Wen mint : Our presale will go live on 22nd of march while public sales will  happen on 23rd of march"
+                        answer: "Wen mint : Our presale will go live on 22nd of march while public sales will  happen on 10 of April"
                     },
                     {
                         id: "2",
