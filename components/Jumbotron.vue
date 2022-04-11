@@ -62,7 +62,7 @@
                 </div>
                 <div class="rebel__jumbotron--text2">
                     <span>
-                        <p>4444 hand painted NFTs ready to</p>
+                        <p>4600 hand painted NFTs ready to</p>
                     </span>
                     <span>
                         <p>take web3 by storm.</p>
