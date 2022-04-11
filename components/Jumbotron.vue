@@ -69,9 +69,16 @@
                     </span>
                 </div>
                 <div class="rebel__jumbotron--text3">
-                    <span @click='openLink("https://discord.com/invite/SmtEVXEpgN")' class="rebel__jumbotron--presale">
+                    <div>Tokens have been sold out! 🥳</div>
+                    <div class="rebel__jumbotron--text3-bottom">
+                        <span>You can check us out on </span>
+                        <span><a href="https://opensea.io/collection/the-rebellion-nft" target="_blank">OpenSea</a></span>
+                        <span>for reveal!</span>
+                    </div>
+                    
+                    <!--<span @click='openLink("https://discord.com/invite/SmtEVXEpgN")' class="rebel__jumbotron--presale">
                         <img src="@/assets/imgs/presale.svg"/>
-                    </span>
+                    </span>-->
                 </div>
             </div>
             <div class="rebel__jumbotron--imgs">
@@ -220,6 +227,36 @@ export default {
             font-size: #{scaleValue(35)};
             font-weight: 200;
             opacity: .7;
+        }
+
+        &--text3 {
+            margin-top: 1.7rem;
+            font-size: #{scaleValue(24)};
+            font-weight: 200;
+
+            &-bottom {
+                margin-top: .5rem;
+
+                & span {
+
+                    &:nth-child(2) {
+                        color: #990f02;
+                        cursor: pointer;
+                        font-weight: 700;
+
+                        & a {
+                            outline: none;
+                            text-decoration: none;
+                            color: #990f02;
+
+                            &:focus,
+                            &:hover {
+                                color: #990f02;
+                            }
+                        }
+                    }
+                }
+            }
         }
 
         &--presale {
